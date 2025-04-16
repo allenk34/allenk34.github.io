@@ -1,0 +1,45 @@
+body {
+        font-family: "Scope One", serif;
+        font-size: 1em;
+        line-height: 120%;
+        text-align: left;
+        text-transform: none;
+      }    
+
+h1{
+    color:rgb(211, 36, 65);
+}
+
+h2{
+    text-decoration: overline;
+}
+
+ul{
+    list-style-type: none;
+}
+
+img{
+    width: 30%;
+    height: auto;
+}
+
+article{
+    background-image: url('Images/Sailboats.jpg');
+        background-repeat: repeat-x;
+}
+
+a:link {
+    color:rgb(211, 36, 65);
+}
+
+a:visited {
+color: rgba(7, 88, 54, 0.613);
+}
+
+a:hover {
+    color: pink;
+}
+
+html{
+    background-color: rgb(241, 235, 226);
+}
