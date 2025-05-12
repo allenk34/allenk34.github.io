@@ -1,102 +1,105 @@
 * {margin: 0; padding: 0;}
 
+
 body {
-    font-family: "Scope One", serif;
-    font-size: 1em;
-    line-height: 120%;
-    text-align: left;
-    text-transform: none;
-}  
+   font-family: "Scope One", serif;
+   font-size: 1em;
+   line-height: 120%;
+   text-align: left;
+   text-transform: none;
+} 
+
 @media only screen and (max-width: 480px) {
-      h1 {
-        font-size: 18px;
-      }
-    
-      p {
-        font-size: 12px;
-      }
-    
-      .container {
-        padding: 10px;
-      }
-    }
+     h1 {
+       font-size: 18px;
+     }
+  
+     p {
+       font-size: 12px;
+     }
+  
+     .container {
+       padding: 10px;
+     }
+   }
 
-    #wrapper { width: 80%; margin: auto; }
-    .column { width: 33.33%; float: left; margin: 10%;
-    }
-    @media only screen and (max-width: 480px) {
-    .column { width: 100%; float: left;
-    margin: 0%; }
-    }
+   #wrapper { width: 80%; margin: auto; }
+   .column { width: 33.33%; float: left; margin: 10%;
+   }
+  
+   @media only screen and (max-width: 480px) {
+   .column { width: 100%; float: left;
+   margin: 0%; }
+   }
 
-#wrapper { 
-    width: 90%;
-    margin: auto;
-    position: relative;
+#wrapper {
+   width: 90%;
+   margin: auto;
+   position: relative;
 }
 
 .container {
-    background-color: pink;
+   background-color: pink;
 }
 
 header {
-    background-color:pink;
-    height: 30%;
-    position: relative;
-    width: 100%;
-    margin: auto;
-    padding: auto;
+   background-color:pink;
+   height: 30%;
+   position: relative;
+   width: 100%;
+   margin: auto;
+   padding: auto;
 }
 
 footer {
-    width: 90%;
-    margin: 2%;
-    padding: auto;
+   width: 90%;
+   margin: 2%;
+   padding: auto;
 }
 
 nav {
-    display: inline;
-    width: 90%;
-    margin: auto;
-    position: relative;
-    z-index: 20%;
-    padding: auto;
+   display: inline;
+   width: 90%;
+   margin: auto;
+   position: relative;
+   z-index: 20%;
+   padding: auto;
 }
 
 h1{
-    margin-top: 5%;
-    color:rgb(211, 36, 65);
+   margin-top: 5%;
+   color:rgb(211, 36, 65);
 }
 
 h2{
-    margin-top: 2%;
-    text-decoration: overline;
+   margin-top: 2%;
+   text-decoration: overline;
 }
 
 ul{
-    margin-top: 2%;
-    list-style-type: none;
+   margin-top: 2%;
+   list-style-type: none;
 }
 
 p{
-    overflow: auto;
-    position: relative;
+   overflow: auto;
+   position: relative;
 }
 
 img{
-    width: 30%;
-    height: 100%;
-    position: relative;
+   width: 30%;
+   height: 100%;
+   position: relative;
 }
 
 article{
-    margin-top: 2%;
-    background-image: url('Images/Sailboats.jpg');
-    background-repeat: repeat-x;
+   margin-top: 2%;
+   background-image: url('Images/Sailboats.jpg');
+   background-repeat: repeat-x;
 }
 
 a:link {
-    color:rgb(211, 36, 65);
+   color:rgb(211, 36, 65);
 }
 
 a:visited {
@@ -104,62 +107,61 @@ color: rgba(7, 88, 54, 0.613);
 }
 
 a:hover {
-    color: pink;
+   color: pink;
 }
 
 .columns {
-    float:left;
-} 
+   float:left;
+}
 
 .col-1 {
-    width: 8.33%;
-} 
+   width: 8.33%;
+}
 
 .col-2 {
-    width: 16.66%;
+   width: 16.66%;
 }
 
 .col-3 {
-    width: 25%;
-} 
+   width: 25%;
+}
 
 .col-4 {
-    width: 33.33%;
-} 
+   width: 33.33%;
+}
 
 .col-5 {
-    width: 41.66%;
-} 
+   width: 41.66%;
+}
 
 .col-6 {
-    width: 50%;
-} 
+   width: 50%;
+}
 
 .col-7 {
-    width: 58.33%;
-} 
+   width: 58.33%;
+}
 
 .col-8 {
-    width: 66.66%;
-} 
+   width: 66.66%;
+}
 
 .col-9 {
-    width: 75%;
+   width: 75%;
 }
 
 .col-10 {
-    width: 83.33%;
-} 
-
-.col-11 {
-    width: 91.66%;
-} 
-
-.col-12 {
-    width: 100%;
+   width: 83.33%;
 }
 
+.col-11 {
+   width: 91.66%;
+}
+
+.col-12 {
+   width: 100%;
+}
 
 html{
-    background-color: rgb(241, 235, 226);
+   background-color: rgb(241, 235, 226);
 }
