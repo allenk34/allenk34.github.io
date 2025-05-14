@@ -52,9 +52,9 @@ header {
 }
 
 footer {
-   width: 90%;
-   margin: 2%;
-   padding: auto;
+   width: 100%;
+   padding-top: 2%;
+   padding-left: 0%;
 }
 
 nav {
@@ -84,17 +84,42 @@ ul{
 p{
    overflow: auto;
    position: relative;
+   background-color: pink;
+   padding-bottom: 0%;
+}
+
+#p1 {
+    height: 200px;
+    float: left;
+    width: 45%;
+    background-color: pink;
+}
+
+#p2 {
+    height: 375px;
+    float: right;
+    width: 45%;
+}
+
+#p3 {
+    height: 175px;
+    width: 45%;
+}
+
+.paras {
+    padding-left: .17%;
+    padding-top: 1%;
+    background-color: pink;
 }
 
 img{
-   width: 30%;
+   width: 25.175%;
    height: 100%;
    position: relative;
 }
 
 article{
    margin-top: 2%;
-   background-image: url('Images/Sailboats.jpg');
    background-repeat: repeat-x;
 }
 
@@ -164,4 +189,5 @@ a:hover {
 
 html{
    background-color: rgb(241, 235, 226);
+   background: url(Images/Flower\ Wallpaper.jpg);
 }
