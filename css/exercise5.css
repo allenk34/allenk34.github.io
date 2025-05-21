@@ -1,0 +1,50 @@
+// <weight>: Use a value from 400 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.lora-<uniquifier> {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+html {
+    background-color: #f8d5d3;
+}
+
+body {
+    font-family: "Lora", serif;
+}
+
+a:link {
+    color: #5b5121;
+ }
+ 
+ 
+ a:visited {
+ color: #bfa732;
+ }
+ 
+ 
+ a:hover {
+    color:#ed6328;
+ }
+ 
+ h1 {
+    color:#ed6328;
+ }
+
+ h2 {
+    color:#ed6328;
+ }
+
+ h4 {
+    color:#ed6328;
+ }
+
+ p{
+    color: #5b5121;
+ }
+
+ footer{
+    color: #5b5121;
+ }
