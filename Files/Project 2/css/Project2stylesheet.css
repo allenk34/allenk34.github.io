@@ -1,0 +1,501 @@
+* {margin: 0; padding: 0;}
+
+html {
+   scroll-behavior: smooth;
+ }
+
+body {
+   font-family: "Instrument Serif", serif;
+   overflow-x: hidden;
+}
+
+body, html {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+   
+h1{
+   margin-top: 5%;
+   color: black
+}
+
+ .instrument-serif-regular {
+   font-family: "Instrument Serif", serif;
+   font-weight: 400;
+   font-style: normal;
+}
+    
+.instrument-serif-regular-italic {
+   font-family: "Instrument Serif", serif;
+   font-weight: 400;
+   font-style: italic;
+}    
+
+.ojuju-12345 {
+   font-family: "Ojuju", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+ }
+
+.nav-bar {
+   display: flex;
+   justify-content: space-between ;
+   align-items: center;
+   flex-wrap: wrap;
+   text-align: center;
+}
+
+header nav a {
+   text-decoration: none;
+   color: black;
+}
+
+.logo {
+flex: 0 0 auto;
+padding: 0 5%;
+font-size: 96px;
+font-family: "Instrument Serif", serif;
+}
+
+.nav-links {
+   display: flex;
+   font-size: 20px;
+}
+
+.nav-links {
+   justify-content: center;
+   padding: 0 5%;
+}
+
+.nav-links {
+   margin: 0 2%;
+   padding: 0 2%;
+}
+
+.nav-links a {
+margin: 0 8px;
+color: black;
+}
+
+header {
+   height: 30%;
+   position: relative;
+   width: 100%;
+   margin: auto;
+   padding: auto;
+   background-color: #fffcf8;
+}
+
+a:link {
+   color: black;
+}
+   
+a:visited {
+   color: black;
+}
+   
+a:hover {
+   text-decoration: underline;
+}
+   
+body{
+   font-family: "Instrument Serif", serif;
+   overflow-x: hidden;
+}
+   
+h1{
+   margin-top: 5%;
+   color: black
+}
+   
+.image-section {
+   background-image: url('../Images/oceanbackground.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   min-height: 400px;
+   padding: 10% 5% 0 5%;
+   position: relative;
+   overflow: hidden;
+}
+
+.overlay-image {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-left: -80px;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+}
+
+.overlay-image img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+   padding: 0;
+   transition: transform 0.3s ease, transform 0.3s ease;
+}
+
+.overlay-image:hover img{
+   transform: scale(1.1);
+}
+
+.image-section-two {
+   background-image: url('../Images/Bougainvellea.jpg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 100%;
+   min-height: 400px;
+   margin: 0px;
+   padding: 10% 5% 0 5%;
+   position: relative;
+   overflow: hidden;
+}
+
+.overlay-image-two {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-left: -80px;
+   transform: translate(-50%, -50%);
+   z-index: 2;
+}
+
+.overlay-image-two img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 0 auto;
+   padding: 0;
+   padding-bottom: 1.8%;
+   transition: transform 0.3s ease, transform 0.3s ease;
+}
+
+.overlay-image-two:hover img{
+   transform: scale(1.1);
+}
+
+.gallery-section {
+   background-color: #cdd7e1;
+   text-align: center;
+   padding-top: 10;
+}
+
+.section-heading {
+   font-size: 32px;
+   margin-bottom: 40px;
+   font-family: "Instrument Serif", serif;
+   color: black;
+   letter-spacing: 1px;
+}
+
+.gallery-item img {
+   text-align: center;
+   width: 100%;
+   transition: transform 0.3s ease, transform 0.3s ease;
+}
+
+.gallery-item:hover img{
+   transform: scale(1.25);
+}
+
+.gallery-item img {
+   width: 100%;
+   height: auto;
+   margin-bottom: 8px;
+}
+
+.gallery-item p {
+   background-color: #FFFCF8;
+   margin-top: 10px;
+   padding: 6px 12px;
+   border-radius: 999px;
+   display: inline-block;
+   font-size: 24px;
+   color: black;
+   border: 1px solid black;
+}
+
+.music-section {
+   background-color: #FFFCF8;
+   padding: 60px 0;
+ }
+
+ .music-container {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   justify-content: space-between;
+   max-width: 1000px;
+   margin: 0 auto;
+   gap: 40px;
+ }
+
+ .music-image, .music-text {
+   flex: 1;
+   min-width: 0;
+ }
+
+ .music-image img {
+   width: 100%;
+   height: auto;
+   display: block;
+   border-radius: 8px;
+   border: 1px solid black;
+ }
+
+ .music-text h2 {
+   font-size: 32px;
+   color: #99a251;
+   margin-bottom: 20px;
+   font-family: "Instrument Serif", serif;
+ }
+
+ .music-text p {
+   font-size: 18px;
+   line-height: 1.6;
+   color: black;
+   margin-bottom: 16px;
+   font-family: "Ojuju", sans-serif;
+ }
+
+ .abba-section {
+   background-color: #CBD7E3;
+   padding: 60px 20px;
+ }
+
+ .album-grid {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 40px;
+   max-width: 1000px;
+   margin: 0 auto;
+   padding: 40px 20px;
+ }
+
+ .album {
+   position: relative;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 60px;
+ }
+
+ .album-cover {
+   width: 50%;
+   height: 250px;
+   object-fit: cover;
+   border-radius: 6px;
+   display: block;
+   border: 1px solid black;
+ }
+
+ .vinyl {
+   position: absolute;
+   top: 5%;
+   right: -30px;
+   width: 220px;
+   height: 220px;
+   z-index: 2;
+ }
+
+ .song-title {
+   background-color: #FFFCF8;
+   margin-top: 24px;
+   padding: 6px 12px;
+   border-radius: 999px;
+   display: inline-block;
+   font-size: 24px;
+   font-weight: 500;
+   color: black;
+   text-align: center;
+   border: 1px solid black;
+ } 
+
+ .vinyl:hover {
+   animation: spin 1s linear infinite;
+ }
+
+ @keyframes spin {
+   from { transform: rotate(0deg); }
+   to { transform: rotate(360deg); }
+ }
+
+ .message-section {
+   background-color: #FFFCF8;
+   padding: 60px 0;
+ }
+
+ .message-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1000px;
+   margin: 0 auto;
+   gap: 40px;
+   flex-wrap: wrap;
+ }
+
+ .message-image{
+   flex: 1;
+   min-width: 300px;
+ }
+
+ .message-image img {
+   width: 100%;
+   display: block;
+   border-radius: 8px;
+   border: 1px solid black;
+ }
+
+ .message-text {
+   flex: 1;
+   max-width: 480px;
+ }
+
+ .message-text h2 {
+   font-family: "Instrument Serif", serif;
+   font-size: 32px;
+   color: #99a251
+ }
+
+ .message-text p {
+   font-family: "Ojuju", sans-serif;
+   font-size: 18px;
+   line-height: 1.6;
+   margin-bottom: 16px;
+   color: black;
+ }
+
+ .gallery-section {
+   background-color: #CBD7E3;
+   padding: 60px 20px;
+   text-align: center;
+ }
+
+ .gallery-heading {
+   font-size: 32px;
+   margin-bottom: 40px;
+   font-family: "Instrument Serif", serif;
+   color: black;
+   letter-spacing: 1px;
+ }
+
+ .gallery-grid {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   max-width: 1000px;
+   margin: 0 auto;
+ }
+
+ .gallery-grid img {
+   width: 100%;
+   height: 350px;
+   border: 1px solid black;
+   border-radius: 4px;
+   object-fit: cover;
+   display: block;
+   transition: transform 0.3s ease;
+ }
+
+ .gallery-grid img:hover {
+   transform: scale(1.03);
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+ }
+
+ .site-footer {
+   background-color: #FFFCF8;
+   padding: 40px 20px 20px;
+   text-align: center;
+   font-family: "Instrument Serif", serif;
+ }
+
+ .footer-top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap;
+   max-width: 1000px;
+   margin: 0 auto 20px;
+ }
+
+ .footer-title {
+   font-size: 40px;
+   margin: 10px 0;
+ }
+
+ .footer-nav {
+   display: flex;
+   gap: 20px;
+   font-size: 20px;
+ }
+
+ .footer-nav a {
+   text-decoration: none;
+   color: black;
+   font-family: "Instrument Serif", serif;
+ }
+
+ .footer-nav a:hover {
+   text-decoration: underline;
+ }
+
+ .footer-bottom {
+   font-size: 16px;
+   color: black;
+ }
+
+.col-1 {
+   width: 8.33%;
+}
+
+.col-2 {
+   width: 16.66%;
+}
+
+.col-3 {
+   width: 25%;
+}
+
+.col-4 {
+   width: 33.33%;
+}
+
+.col-5 {
+   width: 41.66%;
+}
+
+.col-6 {
+   width: 50%;
+}
+
+.col-7 {
+   width: 58.33%;
+}
+
+.col-8 {
+   width: 66.66%;
+}
+
+.col-9 {
+   width: 75%;
+}
+
+.col-10 {
+   width: 83.33%;
+}
+
+.col-11 {
+   width: 91.66%;
+}
+
+.col-12 {
+   width: 100%;
+}
