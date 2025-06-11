@@ -740,7 +740,7 @@ h1{
   }
 
   .overlay-image{
-    max-width: 300px;
+    max-width: 200px;
     min-height: auto;
     transform: scale(0.8);
   }
