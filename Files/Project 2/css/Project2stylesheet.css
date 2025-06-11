@@ -714,12 +714,12 @@ h1{
 
  @media (min-width: 1024px) {
 
-  .overlay-image {
+  .overlay-image img {
     margin-top: 80px;
     margin-bottom: 80px;
   }
 
-  .overlay-image-two {
+  .overlay-image-two img {
     margin-top: 80px;
     margin-bottom: 80px;
   }
