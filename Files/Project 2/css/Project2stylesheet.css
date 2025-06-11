@@ -403,12 +403,11 @@ h1{
  }
 
  .gallery-heading {
-   font-size: 32px;
-   margin-bottom: 40px;
-   font-family: "Instrument Serif", serif;
-   color: black;
-   letter-spacing: 1px;
-   padding-top: 2%;
+  font-size: 32px;
+  margin-bottom: 0;
+  color: black;
+  letter-spacing: 1px; 
+  padding-top: 5%;
  }
 
  .gallery-grid {
@@ -417,7 +416,9 @@ h1{
    gap: 20px;
    max-width: 1000px;
    margin: 0 auto;
-   padding-bottom: 2%;
+   background-color: #CBD7E3;
+   padding-top: 10;
+   top: 20px;
  }
 
  .gallery-grid img {
@@ -692,6 +693,10 @@ h1{
       border: 1px solid black;
     }
 
+    .gallery-heading{
+      margin-top: 2rem;
+    }
+
     .site-footer {
       padding: 40px 20px;
       text-align: center;
@@ -723,12 +728,14 @@ h1{
      padding-top: 80px;
      padding-bottom: 80px;
   }
-
-  .album-cover {
-    margin-top: 100px;
+  
+  .image-section {
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
- 
- .vinyl {
-    margin-top: 100px;
- }
+
+  .image-section-two {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 }
