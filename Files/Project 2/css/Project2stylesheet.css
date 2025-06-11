@@ -739,9 +739,10 @@ h1{
     padding-bottom: 80px;
   }
 
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
   .overlay-image{
-    max-width: 200px;
-    min-height: auto;
-    transform: scale(0.8);
+    width: 70%
   }
 }
