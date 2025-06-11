@@ -144,6 +144,10 @@ h1{
    padding: 10% 5% 0 5%;
    position: relative;
    overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
 }
 
 .overlay-image {
@@ -713,32 +717,6 @@ h1{
  }
 
  @media (min-width: 1024px) {
-
-  .image-section {
-    background-image: url('../Images/oceanbackground.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .image-section-two {
-    background-image: url('../Images/Bougainvellea.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 100vh;
-    padding-top: 80px;
-    padding-bottom: 80px;
-    position: relative;
-    overflow: hidden;
-  }
 
   .gallery-grid {
      padding-top: 80px;
