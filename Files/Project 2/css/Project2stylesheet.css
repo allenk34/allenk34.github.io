@@ -728,8 +728,16 @@ h1{
   }
 
   .image-section-two {
+    background-image: url('../Images/Bougainvellea.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
     padding-top: 80px;
     padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
   }
 
   .gallery-grid {
