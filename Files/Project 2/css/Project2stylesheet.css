@@ -749,3 +749,10 @@ h1{
     width: 60%;
   }
 }
+
+@media (min-width: 1200px) {
+  .overlay-image {
+    max-width: 320px;
+  }
+  
+}
