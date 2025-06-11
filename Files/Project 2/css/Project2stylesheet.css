@@ -722,11 +722,15 @@ h1{
   .overlay-image-two {
     padding-top: 80px;
     padding-bottom: 80px;
+  }
 
   .gallery-grid {
      padding-top: 80px;
      padding-bottom: 80px;
   }
-}
 
- }
+  .album-grid {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
