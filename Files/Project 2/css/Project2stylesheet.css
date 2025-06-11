@@ -715,8 +715,13 @@ h1{
  @media (min-width: 1024px) {
 
   .image-section {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .image-section-two{
+    padding-top: 80px;
+    padding-bottom: 80px;
   }
 
   .gallery-grid {
