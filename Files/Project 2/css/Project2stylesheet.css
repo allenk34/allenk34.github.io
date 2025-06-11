@@ -303,7 +303,6 @@ h1{
    gap: 40px;
    max-width: 1000px;
    margin: 0 auto;
-   padding: 40px 20px;
 }
 
  .album {
@@ -322,6 +321,7 @@ h1{
    border-radius: 6px;
    display: block;
    border: 1px solid black;
+   margin-top: 80px;
  }
 
 .vinyl {
@@ -331,6 +331,7 @@ h1{
    width: 220px;
    height: 220px;
    z-index: 2;
+   margin-top: 80px;
 }
 
 .song-title {
@@ -721,10 +722,5 @@ h1{
   .gallery-grid {
      padding-top: 80px;
      padding-bottom: 80px;
-  }
-
-  .album-grid {
-    padding-top: 80px;
-    padding-bottom: 60px;
   }
 }
